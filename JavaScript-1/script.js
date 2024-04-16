@@ -111,4 +111,109 @@
 // }while(condition)
 
 
+// Non-Primitive Data Types
+// Array => 
+// let a = [20, 30, "Ajay", 2.4]
+// // console.log(a)
+// for(let i = 0; i < a.length; i++){
+//     console.log(a[i])
+// }
+// Object
 
+// let obj = {
+//     key : "Value"
+// }
+
+// let Student = {
+//     Name : 'Rajat',
+//     RollNo : 20,
+//     Course : "React JS"
+// }
+
+// // console.log(Student.RollNo)
+// // console.log(Student['RollNo'])
+
+// Student.Name = 'Rajat Mishra'
+// Student['RollNo'] = 30
+
+// console.log(Student)
+
+
+// 
+
+// let Student = [
+//     {Name : 'Ajay', RollNo : 1, Course : 'React JS'},
+// {Name : 'Amar', RollNo : 2, Course : 'View JS'},
+// {Name : 'Shruti', RollNo : 3, Course : 'JavaScript'}
+// ]
+// console.log(Student[2].Name)
+
+// let obj = {
+//     Name : 'Abcd',
+//     Range : [20, 30, 40]
+// }
+
+// // console.log(obj[1].Range[1]) // Error 
+// console.log(obj.Range[1]) // Success
+
+// Functions
+// Function Without Parameter and without returnable
+    // function functionName(){
+    //     statement
+    // }
+
+    // function hello(){
+    //     console.log('Hello')
+    // }
+
+    // hello()
+
+// Function With Parameter and without returnable
+
+// function hello(name){
+//     console.log('hello', name)
+// }
+
+// hello('Surya')
+
+// Function Without Parameter and with returnable
+        // function Sum(){
+        //     let a = 20, b = 30
+        //     let result = a+b
+        //     return result
+        // }
+        
+        // // console.log(Sum())
+        // let Data = Sum()
+        // console.log(Data)
+
+// Function With Parameter and with returnable
+
+// function Sum(a, b){
+//     let result = a+b
+//     return result
+// }
+
+// let data = Sum(20, 30)
+// console.log(data)
+
+
+// const Sum = (a, b) =>{
+//     let result = a+b
+//     return result
+// }
+
+// let data = Sum(20, 30)
+
+// console.log(data)
+
+
+// 
+// function hello(){
+//     console.log('hello')
+// }
+// hello()
+
+
+// const hello1 = () => console.log('hello')
+// hello1()
